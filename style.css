@@ -1,0 +1,50 @@
+.title{
+  color:black
+
+}
+.attention{
+  color:rgb(255, 165, 0)
+}
+ht.memo{
+  color: gray
+}
+body {
+  font-family: "MS Pゴシック" ;
+  text-align: center
+  }
+
+  a.yes_btn {
+    display: inline-block;
+    width: 8em;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: #EC407A;
+    border: 2px solid #EC407A;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  a.yes_btn:hover {
+    background: #EC407A;
+    color: #fff;
+  }
+  a.no_btn {
+    display: inline-block;
+    width: 8em;
+    padding: 0.8em;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  a.no_btn:hover {
+    background: gray;
+    color: #fff;
+  }
+  h1{
+    font-size: 8em;
+    margin: 0;
+    font-weight: 100
+  }
